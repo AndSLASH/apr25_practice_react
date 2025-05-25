@@ -125,11 +125,6 @@ export const App = () => {
             query={query}
             onQueryChange={setQuery}
             onResetAll={resetFilters}
-            hasActiveFilters={
-              selectedUserId !== null ||
-              selectedCategoryIds.length > 0 ||
-              query.trim() !== ''
-            }
           />
         </div>
         <ProductTable
