@@ -1,6 +1,6 @@
 import cn from 'classnames';
 
-const TABLE_TITLES = ['Id', 'Name', 'Category', 'User'];
+const TABLE_TITLES = ['ID', 'Product', 'Category', 'User'];
 
 export const ProductTable = ({
   products,
